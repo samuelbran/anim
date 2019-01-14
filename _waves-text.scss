@@ -1,0 +1,27 @@
+$shadow1: 0 0 0 rgba($primary, 0);
+$shadow2: 5px 5px 0 rgba($primary, .20);
+$shadow3: 15px 15px 0 rgba($primary, .15);
+$shadow4: 25px 25px 0 rgba($primary, .10);
+$shadow5: 35px 35px 0 rgba($primary, 0);
+
+@keyframes waves-text {
+  0% {
+    text-shadow: $shadow1, $shadow5, $shadow4, $shadow3, $shadow2;
+  }
+
+  25% {
+    text-shadow: $shadow2, $shadow1, $shadow5, $shadow4, $shadow3;
+  }
+
+  50% {
+    text-shadow: $shadow3, $shadow2, $shadow1, $shadow5, $shadow4;
+  }
+
+  75% {
+    text-shadow: $shadow4, $shadow3, $shadow2, $shadow1, $shadow5;
+  }
+
+  100% {
+    text-shadow: $shadow5, $shadow4, $shadow3, $shadow2, $shadow1;
+  }
+}

@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'waves';
+@import 'waves-text';
+
+.anim {
+  animation-timing-function: linear;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.waves {
+  animation-name: waves;
+}
+
+.waves-text {
+  animation-name: waves-text;
+}
